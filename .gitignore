@@ -11,5 +11,5 @@ vite.config.ts.timestamp-*
 /.vscode
 *.log
 /src/static/smui.css
-/firebase/*
-!/firebase/firestore.rules
+/firebase/data
+/.firebase

@@ -6,9 +6,10 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"emulators": "firebase emulators:start --import firebase --export-on-exit",
+        "emulators": "firebase emulators:start --import firebase/data --export-on-exit",
 		"prepare": "npm run smui-theme",
-		"smui-theme": "smui-theme compile src/static/smui.css -i src/styles/smui"
+		"smui-theme": "smui-theme compile src/static/smui.css -i src/styles/smui",
+        "deploy": "firebase deploy"
 	},
 	"devDependencies": {
 		"@modyfi/vite-plugin-yaml": "^1.0.4",
