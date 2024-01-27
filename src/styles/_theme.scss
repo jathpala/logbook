@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$brand-font: "Kalam", cursive;
+$heading-font: "Montserrat", sans-serif;
+$body-font: "Lato", sans-serif;
+
+$background-color: rgb(255, 255, 255);
+$body-color: rbg(0, 0, 0, 0);
+$brand-color: rgb(193, 98, 14);
+$accent-color: rgb(29, 120, 116);
+$error-color: rgb(174, 32, 32);
+
+$small-breakpoint: 360px;
+$medium-breakpoint: 768px;
+$large-breakpoint: 1024px;

@@ -1,0 +1,9 @@
+name: Coronary Angiogram
+details:
+  - id: graft_study
+    name: Graft Study
+    type: boolean
+  - id: access
+    name: Access
+    type: enum-multi
+    options: ['Radial', 'Femoral', 'Ulnar', 'Brachial']

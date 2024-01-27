@@ -1,0 +1,42 @@
+{
+	"name": "logbook",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"emulators": "firebase emulators:start --import firebase --export-on-exit",
+		"prepare": "npm run smui-theme",
+		"smui-theme": "smui-theme compile src/static/smui.css -i src/styles/smui"
+	},
+	"devDependencies": {
+		"@modyfi/vite-plugin-yaml": "^1.0.4",
+		"@smui-extra/autocomplete": "^7.0.0-beta.14",
+		"@smui/button": "^7.0.0-beta.14",
+		"@smui/checkbox": "^7.0.0-beta.15",
+		"@smui/circular-progress": "^7.0.0-beta.14",
+		"@smui/data-table": "^7.0.0-beta.15",
+		"@smui/fab": "^7.0.0-beta.16",
+		"@smui/form-field": "^7.0.0-beta.14",
+		"@smui/icon-button": "^7.0.0-beta.16",
+		"@smui/select": "^7.0.0-beta.14",
+		"@smui/switch": "^7.0.0-beta.14",
+		"@smui/textfield": "^7.0.0-beta.14",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"eslint": "^8.49.0",
+		"eslint-plugin-svelte": "^2.33.2",
+		"firebase": "^10.1.0",
+		"sass": "^1.64.1",
+		"smui-theme": "^7.0.0-beta.14",
+		"svelte": "^4.0.0",
+		"svelte-eslint-parser": "^0.33.0",
+		"svelte-feather-icons": "^4.1.0",
+		"vite": "^5.0.0",
+		"vite-plugin-restart": "^0.4.0"
+	},
+	"type": "module"
+}
